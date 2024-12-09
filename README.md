@@ -87,9 +87,3 @@ Vous êtes un administrateur système chargé de configurer l'infrastructure ré
 5. **Tests et documentation (4 points)**  
    - Documentation claire et précise des étapes.  
    - Résultats des tests validés sur les machines clientes.
-
----
-
-### **Bonus (2 points supplémentaires)**  
-- Si les étudiants ajoutent des fonctionnalités supplémentaires, comme un serveur de fichiers ou une gestion fine des permissions sur des dossiers partagés.
-
