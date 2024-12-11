@@ -1,7 +1,7 @@
 # Doranco-projet-windows-server-2022
 
 ### Projet Windows Server 2022 : Gestion d'un Domaine d'Entreprise  
-**Niveau :** Intermédiaire à Avancé  
+**Niveau :** Intermédiaire à Avancé
 **Objectif pédagogique :**  
 Apprendre à configurer un environnement réseau sous **Windows Server 2022**, incluant la gestion d'un **contrôleur de domaine (Active Directory)**, des rôles réseau (DNS, DHCP), et des stratégies de groupe (GPO).  
 
@@ -25,7 +25,7 @@ Vous êtes un administrateur système chargé de configurer l'infrastructure ré
 
 ##### **Partie 1 : Installation et configuration initiale**
 1. **Installation de Windows Server 2022** :  
-   Installez et configurez une machine Windows Server 2022. Attribuez-lui une IP fixe (exemple : 192.168.1.10).
+   Installez et configurez une machine Windows Server 2022. Attribuez-lui une IP fixe (exemple : 192.168.45.x). (correspondant a votre plage d'adresse dédié)
    
 2. **Nom de la machine** :  
    Renommez la machine en **SRV-DC01**.
@@ -53,9 +53,9 @@ Vous êtes un administrateur système chargé de configurer l'infrastructure ré
 
 ##### **Partie 5 : Configuration DHCP et DNS**
 1. Configurez un serveur DHCP sur la machine Windows Server 2022 avec :  
-   - Une plage d'adresses : `192.168.1.100` à `192.168.1.200`.  
-   - Une passerelle par défaut : `192.168.1.1`.  
-   - Une attribution DNS pointant vers `192.168.1.10`.
+   - Une plage d'adresses : `192.168.45.x` à `192.168.45.x` (correspondant a votre plage d'adresse dédié).
+   - Une passerelle par défaut : `192.168.45.1`.  
+   - Une attribution DNS pointant vers `192.168.45.x`. (correspondant a votre plage d'adresse dédié)
 
 2. Testez le fonctionnement DHCP avec une machine cliente.
 
